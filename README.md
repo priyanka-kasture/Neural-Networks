@@ -15,3 +15,4 @@ pip install --upgrade keras </br>
 # Algorithms
 1. Introduction </br>
 1.1 Hello World with Tensorflow </br>
+1.2 Addition of Two Numbers (Constants) </br>
