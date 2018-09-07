@@ -15,7 +15,9 @@ B = tf.constant(25,name="B")
 C = tf.add(A,B,name="C")
 
 '''
-Here tensorflow has created a graph. But it does not run the graph till you create an instance of a session and then run the same. Before creating and running the session, if we try printing value of C, the output will be a tensor, not actual value of C.
+Here tensorflow has created a graph. 
+But it does not run the graph till you create an instance of a session and then run the same. 
+Before creating and running the session, if we try printing value of C, the output will be a tensor, not actual value of C.
 '''
 print("Value of C before running tensor:",C)
 
